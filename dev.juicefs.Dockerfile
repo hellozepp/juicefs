@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# From git repo https://github.com/juicedata/juicefs-csi-driver/blob/master/docker/juicefs.Dockerfile
 FROM golang:1.17-buster as builder
 
 WORKDIR /workspace
